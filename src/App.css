@@ -1,38 +1,118 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  width: 100%;
 }
-
-.App-link {
-  color: #61dafb;
+.comment {
+  width: 250px;
+  height: 150px;
+  background-color: rgb(110, 110, 255);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+  padding: 10px;
+  margin: 20px 0;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.label {
+  color: #fff;
+  margin-right: 5px;
+}
+.FullComment {
+  width: 400px;
+  height: 200px;
+  background-color: rgb(110, 110, 255);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+  padding: 10px;
+  margin-top: 20px;
+}
+.addNewComment {
+  width: 550px;
+  height: 200px;
+  background-color: rgb(110, 110, 255);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  margin-top: 20px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.input {
+  outline: none;
+  padding: 5px 20px;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.5) 0 5px 15px 0;
+  margin-top: 5px;
+  border-radius: 5px;
+}
+.boxInput {
+  display: flex;
+  align-items: center;
+}
+.feilds {
+  display: flex;
+}
+.boxComment {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  cursor: pointer;
+  flex-wrap: wrap;
+}
+.button {
+  border: none;
+  padding: 10px 20px;
+  margin-top: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.header {
+  display: flex;
+  align-items: center;
+  height: 80px;
+  background-color: rgb(184, 184, 184);
+  width: 100%;
+}
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+  background-color: rgb(184, 184, 184);
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+}
+.layout {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.items {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+  padding: 10px;
+  color: #fff;
 }
